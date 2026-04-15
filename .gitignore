@@ -1,0 +1,66 @@
+# Unreal Engine 5
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.swp
+*.swo
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Visual Studio / Rider / Xcode generated files
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.xcodeproj
+*.xcworkspace
+
+# Unreal build/generated folders
+Binaries/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Plugin generated folders
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Logs / temp
+*.log
+
+# Auto-generated project files
+*.VC.db
+*.VC.opendb
+
+# Crash / profiling / cache
+*.pdb
+*.obj
+*.o
+*.lib
+*.dll
+*.exe
+*.app
+*.ipa
+*.dylib
+*.so
+
+# Unreal autosave / local files
+Saved/Autosaves/
+Saved/Backup/
+Saved/Collections/
+Saved/Logs/
+Saved/Temp/
+Saved/webcache_*
+
+# Ignore built data for maps
+*_BuiltData.uasset
